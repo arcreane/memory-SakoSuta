@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.ObservableList?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+
+
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.memoryy.HelloController">
+  <center>
+    <VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+      <Label text="Sélectionnez un thème :" />
+      <ComboBox fx:id="themeComboBox" prefWidth="200.0">
+        <items>
+          <FXCollections fx:factory="observableArrayList">
+            <String fx:value="Star Wars" />
+            <String fx:value="Genshin Impact" />
+          </FXCollections>
+        </items>
+      </ComboBox>
+      <Label text="Sélectionnez une difficulté :" />
+      <ComboBox fx:id="difficultyComboBox" prefWidth="200.0">
+        <items>
+          <FXCollections fx:factory="observableArrayList">
+            <String fx:value="Facile" />
+            <String fx:value="Moyen" />
+            <String fx:value="Difficile" />
+          </FXCollections>
+        </items>
+      </ComboBox>
+      <Button fx:id="startButton" text="Commencer" onAction="#handleStartButtonAction"/>
+    </VBox>
+  </center>
+  <bottom>
+    <HBox alignment="CENTER_RIGHT" prefHeight="40.0" spacing="10.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+      <Button fx:id="quitButton" text="Quitter" onAction="#handleQuitButtonAction"/>
+    </HBox>
+  </bottom>
+  <padding>
+    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+  </padding>
+</BorderPane>

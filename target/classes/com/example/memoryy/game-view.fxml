@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" fx:id="gridPane" alignment="CENTER">
+  <rowConstraints>
+    <RowConstraints maxHeight="50" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="50" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="50" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="50" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="50" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="50" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="50" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="50" vgrow="ALWAYS" />
+  </rowConstraints>
+  <columnConstraints>
+    <ColumnConstraints maxWidth="50" hgrow="ALWAYS" />
+    <ColumnConstraints maxWidth="50" hgrow="ALWAYS" />
+    <ColumnConstraints maxWidth="50" hgrow="ALWAYS" />
+    <ColumnConstraints maxWidth="50" hgrow="ALWAYS" />
+    <ColumnConstraints maxWidth="50" hgrow="ALWAYS" />
+    <ColumnConstraints maxWidth="50" hgrow="ALWAYS" />
+    <ColumnConstraints maxWidth="50" hgrow="ALWAYS" />
+    <ColumnConstraints maxWidth="50" hgrow="ALWAYS" />
+  </columnConstraints>
+  <Rectangle fx:id="rectangle00" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+  <Rectangle fx:id="rectangle01" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+  <Rectangle fx:id="rectangle02" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+  <Rectangle fx:id="rectangle03" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+  <Rectangle fx:id="rectangle04" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+  <Rectangle fx:id="rectangle05" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+  <Rectangle fx:id="rectangle06" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+  <Rectangle fx:id="rectangle07" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+  <Rectangle fx:id="rectangle08" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+  <Rectangle fx:id="rectangle09" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+  <Rectangle fx:id="rectangle10" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+  <Rectangle fx:id="rectangle11" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+  <Rectangle fx:id="rectangle12" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+  <Rectangle fx:id="rectangle13" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+  <Rectangle fx:id="rectangle14" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+  <Rectangle fx:id="rectangle15" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+  <Rectangle fx:id="rectangle16" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+  <Rectangle fx:id="rectangle17" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+  <Rectangle fx:id="rectangle18" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+  <Rectangle fx:id="rectangle19" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+  <Rectangle fx:id="rectangle20" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+  <Rectangle fx:id="rectangle21" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+  <Rectangle fx:id="rectangle22" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+  <Rectangle fx:id="rectangle23" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+  <Rectangle fx:id="rectangle24" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+  <Rectangle fx:id="rectangle25" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+  <Rectangle fx:id="rectangle26" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+  <Rectangle fx:id="rectangle27" fill="WHITE" stroke="BLACK" strokeType="INSIDE" width="50" height="50" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+</GridPane>
